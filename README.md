@@ -9,7 +9,7 @@ The dimensions of of each pixel were x=5.49 nm, y=5.49 nm, z=15.0 nm. We binned 
 
 ### Annotations
 
-The dataset contains 5 annotated sub-volumes of 256x256x256 voxels. Currently, two intracellular compartment types are annotated: mitochondria and endo-lysosomes. All annotations were revised by biomedical experts. We will add other compartment types in the future.
+The dataset contains 5 annotated sub-volumes of 256x256x256 voxels. Currently, two intracellular compartment types are annotated: mitochondria and endolysosomes. All annotations were revised by biomedical experts. We will add other compartment types in the future.
 
 ### Dataset structure
 
@@ -17,7 +17,7 @@ The dataset is structured into three folders, each containing five 256x256x256 s
 
 * *data*: contains the original FIB-SEM scanned data
 * *mito*: contains manual annotations of mitochondria
-* *lyso*: contains manual annotations of endo-lysosomes
+* *lyso*: contains manual annotations of endolysosomes
 
 ### Acknowledgements
 The dataset is published under the [CC-BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). Feel free to use it for your research with necessary attributions. 
