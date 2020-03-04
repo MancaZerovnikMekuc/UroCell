@@ -19,5 +19,8 @@ The dataset is structured into three folders, each containing five 256x256x256 s
 * *mito*: contains manual annotations of mitochondria
 * *lyso*: contains manual annotations of endolysosomes
 
+### Cite us
+Please cite our [paper](https://doi.org/10.1016/j.compbiomed.2020.103693) if you use this dataset. 
+
 ### Acknowledgements
 The dataset is published under the [CC-BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). Feel free to use it for your research with necessary attributions. 
