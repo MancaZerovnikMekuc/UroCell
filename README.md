@@ -9,15 +9,18 @@ The dimensions of of each pixel were x=5.49 nm, y=5.49 nm, z=15.0 nm. We binned 
 
 ### Annotations
 
-The dataset contains 5 annotated sub-volumes of 256x256x256 voxels. Currently, two intracellular compartment types are annotated: mitochondria and endolysosomes. All annotations were revised by biomedical experts. We will add other compartment types in the future.
+The dataset contains eight sub-volumes of 256x256x256 voxels. Currently, three intracellular compartment types are annotated: mitochondria, endolysosomes, and Golgi apparatus. Mitochondria and endolysosomes are annotated in five sub-volumes, Golgi apparatus is annotated in all 8 sub-volumes. Mitochondria and endolysome labels are precise while the annotations of Golgi apparatus are approximate. They are defining regions of Golgi apparatus but they are not following the exact border of the compartment, except for the two sub-volumes for which we also provide the precise labels. All annotations were revised by biomedical experts. We will add other compartment types in the future.
 
 ### Dataset structure
 
-The dataset is structured into three folders, each containing five 256x256x256 sub-volumes. The files are stored in the gzipped Neuroimaging Informatics Technology Initiative (NIfTI) volumetric file format.
+The dataset is structured into four folders, each containing 256x256x256 sub-volumes. The files are stored in the gzipped Neuroimaging Informatics Technology Initiative (NIfTI) volumetric file format.
 
 * *data*: contains the original FIB-SEM scanned data
 * *mito*: contains manual annotations of mitochondria
 * *lyso*: contains manual annotations of endolysosomes
+* *golgi*: contains two sub-folders:
+    * *approximate:* contains approximate manual annotations of Golgi apparatus
+    * *precise:* contains precise manual annotations of Golgi apparatus
 
 ### Cite us
 Please cite our [paper](https://doi.org/10.1016/j.compbiomed.2020.103693) if you use this dataset. 
