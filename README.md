@@ -1,5 +1,8 @@
 # The UroCell Dataset
 The repository contains the UroCell dataset - an **annotated volumetric dataset of intracellular compartments** obtained with focused ion beam and scanning electron microscopy (FIB-SEM). 
+<p align="center">
+<img src="https://github.com/MancaZerovnikMekuc/UroCell/blob/master/compartments.png" alt="alt text" width="500">
+</p>
 
 ### Procedure
 We obtained tissue samples from urinary bladders of 6-8 weeks old healthy male C57BL/6J mice in accordance with European guidelines and Slovenian legislation. The experiments were approved by the Veterinary Administration of the Slovenian Ministry of Agriculture and Forestry (permit no. U34401-6/2015/4) in compliance with the Animal Health Protection Act and the Instructions for Granting Permits for Animal Experimentation for Scientific Purposes. 
