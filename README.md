@@ -20,7 +20,7 @@ Mitochondria, endolysosome and fusiform vesicles labels are precise while the an
 
 For the class of mitochondria and fusiform vesicles, we also provide labels for instance segmentation, where each instance of the compartment in the target class has its own label.
 
-For the class of mitochondria, we also provide labels indicating the shape of each instance: we define if the object is forked or narrowed (an instance can be both - forked and narrowed).
+For the class of mitochondria, we also provide labels indicating the shape of each instance: we define if the object is branched or contacting (an instance can be both - branched and contacting).
 
 All annotations were revised by biomedical experts.
 
@@ -32,8 +32,8 @@ The dataset is structured into four folders, each containing 256x256x256 sub-vol
 * *mito*: contains four sub-folders:
     * *binary:* contains manual annotations of mitochondria (label 0: background, label 1: mitochondria)
     * *instance:* contains manual annotations of mitochondria where each instance of a mitochondrion is labeled with a different integer number (label 0: background, label > 0: mitochondria)
-    * *forked:* contains manual annotations of mitochondria with information if an object is forked or not (label 0: background, label 1: forked mitochondria objects, label 2: non-forked mitochondria)
-    * *narrowed:* contains manual annotations of mitochondria with information if an object is narrowed or not (label 0: background, label 1: non-narrowed mitochondria objects, label 2: narrowed mitochondria)
+    * *branched:* contains manual annotations of mitochondria with information if an object is branched or not (label 0: background, label 1: branched mitochondria objects, label 2: non-branched mitochondria)
+    * *contacting:* contains manual annotations of mitochondria with information if an object is contacting or not (label 0: background, label 1: non-contacting mitochondria objects, label 2: contacting mitochondria)
 * *lyso*: contains manual annotations of endolysosomes (label 0: background, label 1: endolysosome)
 * *golgi*: contains two sub-folders:
     * *approximate:* contains approximate manual annotations of Golgi apparatus (label 0: background, label 1: Golgi apparatus)
