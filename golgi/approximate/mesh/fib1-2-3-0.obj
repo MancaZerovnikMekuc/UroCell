@@ -1,5 +1,3 @@
-g out-golgi\approximate\fib1-2-3-0
-o out-golgi\approximate\fib1-2-3-0
-v  usemtl mat_1
-s 1
-f  
+version https://git-lfs.github.com/spec/v1
+oid sha256:4327d021362c0c5a78c6a97938dc0d452eb3fe8c295669ad47f504ba0bf5f984
+size 93
