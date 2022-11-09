@@ -1,4 +1,17 @@
 # The UroCell Dataset
+
+Manca Žerovnik Mekuč<sup>1</sup>, Ciril Bohak<sup>1,2</sup>, Samo Hudoklin<sup>3</sup>, Eva Boneš<sup>1</sup>, Byeong Hak Kim<sup>4</sup>, Rok Romih<sup>3</sup>, Min Young Kim<sup>4</sup>, and Matija Marolt<sup>1</sup>
+
+<sup>1</sup> Laboratory for Coumputer Graphics and Multimedia, Faculty of Computer and Information Science, University of Ljubljana
+
+<sup>2</sup> Visual Computing Center, King Abdullah University of Science and Technology
+
+<sup>3</sup> Institute of Cell Biology, Faculty of Medicine, University of Ljubljana
+
+<sup>4</sup> School of Electronics Engineering and Research Center for Neurosurgical Robotic System, Kyungpook National University
+
+<sup>5</sup> Hanwha Systems Corporation, Optronics Team
+
 The repository contains the UroCell dataset - an **annotated volumetric dataset of intracellular compartments** obtained with focused ion beam and scanning electron microscopy (FIB-SEM). 
 <p align="center">
 <img src="https://github.com/MancaZerovnikMekuc/UroCell/blob/master/compartments.png" alt="alt text" width="500">
@@ -34,16 +47,54 @@ The dataset is structured into four folders, each containing 256x256x256 sub-vol
     * *instance:* contains manual annotations of mitochondria where each instance of a mitochondrion is labeled with a different integer number (label 0: background, label > 0: mitochondria)
     * *branched:* contains manual annotations of mitochondria with information if an object is branched or not (label 0: background, label 1: branched mitochondria objects, label 2: non-branched mitochondria)
     * *contacting:* contains manual annotations of mitochondria with information if an object is contacting or not (label 0: background, label 1: non-contacting mitochondria objects, label 2: contacting mitochondria)
-* *lyso*: contains manual annotations of endolysosomes (label 0: background, label 1: endolysosome)
+    * *mesh:* contains mesh representations of mitochondria in OBJ format
+* *lyso*: 
+    * *binary:* contains manual annotations of endolysosomes (label 0: background, label 1: endolysosome)
+    * *mesh:* contains mesh representations of endolysosomes in OBJ format
 * *golgi*: contains two sub-folders:
-    * *approximate:* contains approximate manual annotations of Golgi apparatus (label 0: background, label 1: Golgi apparatus)
-    * *precise:* contains precise manual annotations of Golgi apparatus (label 0: background, label 1: Golgi apparatus)
+    * *approximate:*
+        * *binary:* contains approximate manual annotations of Golgi apparatus (label 0: background, label 1: Golgi apparatus)
+        * *mesh:* contains mesh representations of Golgi apparatus in OBJ format
+    * *precise:*
+        * *binary:* contains precise manual annotations of Golgi apparatus (label 0: background, label 1: Golgi apparatus)
+        * *mesh:* contains mesh representations of Golgi apparatus in OBJ format
 * *fv*: contains two sub-folders:
     * *binary:* contains manual annotations of fusiform vesicles (label 0: background, label 1: fusiform vesicle)
     * *instance:* contains manual annotations of fusiform vesicles where each instance of a fusiform vesicle is labeled with a different integer number (label 0: background, label > 0: fusiform vesicle)
+    * *mesh:* contains mesh representations of fusiform vesicles in OBJ format
 
 ### Cite us
-Please cite our [paper](https://doi.org/10.1016/j.compbiomed.2020.103693) if you use this dataset. 
+Please cite our papers [(Žerovnik Mekuč et al. 2020)](https://doi.org/10.1016/j.compbiomed.2020.103693) or [(Žerovnik Mekuč et al. 2022)](https://doi.org/10.1016/j.cmpb.2022.106959) if you use this dataset.
+
+BibTex:
+```
+@article{ZerovnikMekuc2020,
+    author = {Manca {Žerovnik Mekuč} and Ciril Bohak and Samo Hudoklin and Byeong Hak Kim and Rok Romih and Min Young Kim and Matija Marolt},
+    title = {Automatic segmentation of mitochondria and endolysosomes in volumetric electron microscopy data},
+    journal = {Computers in Biology and Medicine},
+    volume = {119},
+    pages = {103693},
+    year = {2020},
+    issn = {0010-4825},
+    doi = {https://doi.org/10.1016/j.compbiomed.2020.103693},
+    url = {https://www.sciencedirect.com/science/article/pii/S0010482520300792}
+}
+``` 
+and
+
+```
+@article{ZerovnikMekuc2022,
+    author = {Manca {Žerovnik Mekuč} and Ciril Bohak and Eva Boneš and Samo Hudoklin and Rok Romih and Matija Marolt},
+    title = {Automatic segmentation and reconstruction of intracellular compartments in volumetric electron microscopy data},
+    journal = {Computer Methods and Programs in Biomedicine},
+    volume = {223},
+    pages = {106959},
+    year = {2022},
+    issn = {0169-2607},
+    doi = {https://doi.org/10.1016/j.cmpb.2022.106959},
+    url = {https://www.sciencedirect.com/science/article/pii/S0169260722003418}
+}
+```
 
 ### Acknowledgements
 The dataset is published under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). Feel free to use it for your research with necessary attributions. 
