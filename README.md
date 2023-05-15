@@ -1,6 +1,6 @@
 # The UroCell Dataset
 
-Manca Žerovnik Mekuč<sup>1</sup>, Ciril Bohak<sup>1,2</sup>, Samo Hudoklin<sup>3</sup>, Eva Boneš<sup>1</sup>, Byeong Hak Kim<sup>4</sup>, Caroline Kizilyaprak<sup>6</sup>, Bruno M Humbel<sup>7</sup>, Rok Romih<sup>3</sup>, Min Young Kim<sup>4</sup>, and Matija Marolt<sup>1</sup>
+Manca Žerovnik Mekuč<sup>1</sup>, Ciril Bohak<sup>1,2</sup>, Samo Hudoklin<sup>3</sup>, Eva Boneš<sup>1</sup>, Byeong Hak Kim<sup>4</sup>, Caroline Kizilyaprak<sup>5</sup>, Bruno M Humbel<sup>6</sup>, Rok Romih<sup>3</sup>, Min Young Kim<sup>4</sup>, and Matija Marolt<sup>1</sup>
 
 <sup>1</sup> Laboratory for Coumputer Graphics and Multimedia, Faculty of Computer and Information Science, University of Ljubljana, Slovenia
 
@@ -10,11 +10,9 @@ Manca Žerovnik Mekuč<sup>1</sup>, Ciril Bohak<sup>1,2</sup>, Samo Hudoklin<sup
 
 <sup>4</sup> School of Electronics Engineering and Research Center for Neurosurgical Robotic System, Kyungpook National University, Korea
 
-<sup>5</sup> Hanwha Systems Corporation, Optronics Team, Korea
+<sup>5</sup> Electron Microscopy Facility, University of Lausanne, Lausanne, Switzerland
 
-<sup>6</sup> Electron Microscopy Facility, University of Lausanne, Lausanne, Switzerland
-
-<sup>7</sup> Electron Microscopy Facility, University of Lausanne, Lausanne, Switzerland; Imaging, Okinawa Institute of Science and Technology, Onna-son, Okinawa, Japan
+<sup>6</sup> Electron Microscopy Facility, University of Lausanne, Lausanne, Switzerland; Imaging, Okinawa Institute of Science and Technology, Onna-son, Okinawa, Japan
 
 The repository contains the UroCell dataset - an **annotated volumetric dataset of intracellular compartments** obtained with focused ion beam and scanning electron microscopy (FIB-SEM). 
 <p align="center">
